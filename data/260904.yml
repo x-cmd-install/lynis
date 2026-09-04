@@ -7,7 +7,7 @@ about:
   head: f1926dd
   archived: false
   latestVersion: 3.1.7
-  collectedAt: 2026-09-04T19:29:27Z
+  collectedAt: 2026-09-04T21:02:47Z
 timeline:
   created: 2013-12-10
   lastCommit: 2026-08-05
@@ -82,6 +82,34 @@ total:
   openIssue: 171
   commit: 3926
 ---
+path: /home/runner/.x-repo/github.com/CISOfy/lynis
+collectedAt: 2026-09-04T21:02:48Z
+loc:
+  Sh:
+    code: 20891
+    comments: 7196
+    blanks: 1550
+    files: 63
+  Yaml:
+    code: 49
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 3324
+    blanks: 863
+    files: 8
+  RPMSpecfile:
+    code: 0
+    comments: 22
+    blanks: 0
+    files: 1
+total:
+  code: 20940
+  comments: 10542
+  blanks: 2413
+  files: 73
 ---
 date: "2026-08-24"
 repo:
