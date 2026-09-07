@@ -5,15 +5,15 @@ about:
   head: f1926dd
   archived: false
   latestVersion: "3.1.7"
-  collectedAt: 2026-09-07T05:01:07Z
+  collectedAt: 2026-09-07T19:26:29Z
 timeline:
   created: 2013-12-10
   lastCommit: 2026-08-05
   lastRelease: 2026-06-25
 popularity:
-  star: 16296
+  star: 16301
   watcher: 349
-  fork: 1630
+  fork: 1629
   release: 66
   contributor: 250
   pullRequest: 789
@@ -81,7 +81,7 @@ total:
   commit: 3926
 ---
 path: /home/runner/.x-repo/github.com/CISOfy/lynis
-collectedAt: 2026-09-07T05:01:11Z
+collectedAt: 2026-09-07T19:26:32Z
 loc:
   Sh:
     code: 20891
@@ -192,7 +192,7 @@ checks:
       - 'Info:   0 out of   1 third-party GitHubAction dependencies pinned'
 ---
 eget:
-  collectedAt: 2026-09-07T05:01:12+00:00
+  collectedAt: 2026-09-07T19:26:34+00:00
   platform:
     darwin/arm64:
       name:  null
