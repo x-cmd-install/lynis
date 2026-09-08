@@ -5,7 +5,7 @@ about:
   head: f1926dd
   archived: false
   latestVersion: "3.1.7"
-  collectedAt: 2026-09-08T02:13:11Z
+  collectedAt: 2026-09-08T05:02:55Z
 timeline:
   created: 2013-12-10
   lastCommit: 2026-08-05
@@ -81,7 +81,7 @@ total:
   commit: 3926
 ---
 path: /home/runner/.x-repo/github.com/CISOfy/lynis
-collectedAt: 2026-09-08T02:13:13Z
+collectedAt: 2026-09-08T05:02:57Z
 loc:
   Sh:
     code: 20891
