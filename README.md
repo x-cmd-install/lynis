@@ -5,9 +5,9 @@ Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists
 - **Upstream**: <https://github.com/CISOfy/lynis>
 - **Homepage**: <https://cisofy.com/lynis/>
 - **Latest release**: `3.1.7` (2026-06-25)
-- **Last commit**: 2026-08-05
+- **Last commit**: 2026-09-08
 - **License**: GPL-3.0
-- **Stars**: 16302 · **Forks**: 1630 · **Open issues**: 958 · **Contributors**: 250
+- **Stars**: 16304 · **Forks**: 1630 · **Open issues**: 958 · **Contributors**: 251
 
 ## Installation
 
@@ -19,6 +19,6 @@ See <https://x-cmd.com/install/lynis> for details.
 
 ## Data
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-08T11:10:25Z._
+_Last regenerated: 2026-09-09T05:12:34Z._
