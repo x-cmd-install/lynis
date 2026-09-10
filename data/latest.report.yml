@@ -7,7 +7,7 @@ about:
   latestVersion: "3.1.7"
   latestRelease: "3.1.7"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T05:13:06Z
+  collectedAt: 2026-09-10T20:47:31Z
 timeline:
   created: 2013-12-10
   lastCommit: 2026-09-09
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-06-25
   lastPrerelease: 
 popularity:
-  star: 16308
+  star: 16311
   watcher: 349
   fork: 1630
   release: 66
@@ -85,7 +85,7 @@ total:
   commit: 3934
 ---
 path: /home/runner/.x-repo/github.com/CISOfy/lynis
-collectedAt: 2026-09-10T05:13:09Z
+collectedAt: 2026-09-10T20:47:35Z
 loc:
   Sh:
     code: 20896
