@@ -29,8 +29,8 @@ x install lynis
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Fuzzing** (0/10) — project is not fuzzed
 
 ## 源代码
@@ -46,41 +46,22 @@ x install lynis
 
 ## 流行度
 
-- **Star**: 16,322 · **Fork**: 1,632 · **开放 issue**: 958 · **贡献者**: 252
+- **Star**: 16,324 · **Fork**: 1,633 · **开放 issue**: 959 · **贡献者**: 252
 
 ## 累计统计
 
-- **发布数**: 66 · **已合并 PR**: 617 · **开放 PR**: 50 · **已关闭 issue**: 787 · **开放 issue**: 171 · **提交数**: 3934
+- **发布数**: 66 · **已合并 PR**: 617 · **开放 PR**: 50 · **已关闭 issue**: 787 · **开放 issue**: 172 · **提交数**: 3934
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 1 | 4 | 1 | 1 | 4 |
-| last60d | 2026-07-15 | 0 | 3 | 6 | 2 | 3 | 9 |
-| 90d | 2026-06-15 | 1 | 5 | 9 | 3 | 5 | 12 |
-| last180d | 2026-03-17 | 1 | 9 | 18 | 8 | 12 | 17 |
-| 360d | 2025-09-18 | 2 | 23 | 30 | 20 | 33 | 34 |
-| last720d | 2024-09-23 | 6 | 59 | 48 | 44 | 69 | 223 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/lynis) 上共有 **94** 个发行版报告此项目。**22** 个 ✅ 已是最新上游版本，**62** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `3.1.6` | ⚠️ outdated |
-| Debian 14 | `3.1.6` | ⚠️ outdated |
-| Debian 13 | `3.1.4` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.1.6` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.0.9` | ⚠️ outdated |
-| Arch | `3.1.7` | ✅ latest |
-| Homebrew | `3.1.7` | ✅ latest |
-| Fedora rawhide | `3.1.7` | ✅ latest |
-| Nix unstable | `3.1.7` | ✅ latest |
-| Void | `3.1.7` | ✅ latest |
-| Alpine edge | `3.1.6` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.1.7` | ✅ latest |
+| 30d | 2026-08-15 | 0 | 1 | 4 | 0 | 2 | 4 |
+| last60d | 2026-07-16 | 0 | 2 | 6 | 2 | 4 | 5 |
+| 90d | 2026-06-16 | 1 | 5 | 7 | 3 | 6 | 12 |
+| last180d | 2026-03-18 | 1 | 9 | 18 | 8 | 13 | 17 |
+| 360d | 2025-09-19 | 2 | 23 | 30 | 20 | 34 | 34 |
+| last720d | 2024-09-24 | 6 | 59 | 48 | 44 | 70 | 223 |
 
 ## 改进这些数据
 
@@ -91,4 +72,4 @@ lynis 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:19:55Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T05:31:45Z._

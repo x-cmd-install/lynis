@@ -29,8 +29,8 @@ Overall score: **5.3 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Fuzzing** (0/10) — project is not fuzzed
 
 ## Source
@@ -46,41 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,322 · **Forks**: 1,632 · **Open issues**: 958 · **Contributors**: 252
+- **Stars**: 16,324 · **Forks**: 1,633 · **Open issues**: 959 · **Contributors**: 252
 
 ## Totals (cumulative)
 
-- **Releases**: 66 · **Merged PRs**: 617 · **Open PRs**: 50 · **Closed issues**: 787 · **Open issues**: 171 · **Commits**: 3934
+- **Releases**: 66 · **Merged PRs**: 617 · **Open PRs**: 50 · **Closed issues**: 787 · **Open issues**: 172 · **Commits**: 3934
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 1 | 4 | 1 | 1 | 4 |
-| last60d | 2026-07-15 | 0 | 3 | 6 | 2 | 3 | 9 |
-| 90d | 2026-06-15 | 1 | 5 | 9 | 3 | 5 | 12 |
-| last180d | 2026-03-17 | 1 | 9 | 18 | 8 | 12 | 17 |
-| 360d | 2025-09-18 | 2 | 23 | 30 | 20 | 33 | 34 |
-| last720d | 2024-09-23 | 6 | 59 | 48 | 44 | 69 | 223 |
-
-## Distribution status
-
-Reported by **94** distros on [repology.org](https://repology.org/project/lynis). **22** are ✅ on the latest upstream release, **62** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.1.6` | ⚠️ outdated |
-| Debian 14 | `3.1.6` | ⚠️ outdated |
-| Debian 13 | `3.1.4` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.1.6` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.0.9` | ⚠️ outdated |
-| Arch | `3.1.7` | ✅ latest |
-| Homebrew | `3.1.7` | ✅ latest |
-| Fedora rawhide | `3.1.7` | ✅ latest |
-| Nix unstable | `3.1.7` | ✅ latest |
-| Void | `3.1.7` | ✅ latest |
-| Alpine edge | `3.1.6` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.1.7` | ✅ latest |
+| 30d | 2026-08-15 | 0 | 1 | 4 | 0 | 2 | 4 |
+| last60d | 2026-07-16 | 0 | 2 | 6 | 2 | 4 | 5 |
+| 90d | 2026-06-16 | 1 | 5 | 7 | 3 | 6 | 12 |
+| last180d | 2026-03-18 | 1 | 9 | 18 | 8 | 13 | 17 |
+| 360d | 2025-09-19 | 2 | 23 | 30 | 20 | 34 | 34 |
+| last720d | 2024-09-24 | 6 | 59 | 48 | 44 | 70 | 223 |
 
 ## Improve this data
 
@@ -91,4 +72,4 @@ Install metadata for lynis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:19:54Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:31:45Z._
