@@ -4,7 +4,7 @@
 
 Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional.
 
-![lynis](https://repo.x-cmd.io/lynis.svg?lang=zh)
+[![x-cmd/install — lynis Code Quality Monitoring Repo Card](https://repo.x-cmd.io/lynis.svg?lang=zh)](https://x-cmd.com/install/lynis)
 
 ## 安装
 
@@ -46,7 +46,7 @@ x install lynis
 
 ## 流行度
 
-- **Star**: 16,356 · **Fork**: 1,635 · **开放 issue**: 960 · **贡献者**: 254
+- **Star**: 16,359 · **Fork**: 1,636 · **开放 issue**: 960 · **贡献者**: 254
 
 ## 累计统计
 
@@ -56,12 +56,12 @@ x install lynis
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 3 | 4 | 1 | 2 | 8 |
-| last60d | 2026-07-20 | 0 | 4 | 4 | 3 | 4 | 9 |
-| 90d | 2026-06-20 | 1 | 7 | 6 | 4 | 6 | 16 |
-| last180d | 2026-03-22 | 1 | 11 | 18 | 9 | 13 | 21 |
-| 360d | 2025-09-23 | 2 | 25 | 30 | 21 | 34 | 38 |
-| last720d | 2024-09-28 | 5 | 61 | 48 | 42 | 70 | 228 |
+| 30d | 2026-08-21 | 0 | 3 | 4 | 1 | 2 | 8 |
+| last60d | 2026-07-22 | 0 | 4 | 4 | 3 | 4 | 9 |
+| 90d | 2026-06-22 | 1 | 7 | 6 | 3 | 5 | 16 |
+| last180d | 2026-03-24 | 1 | 11 | 18 | 9 | 13 | 21 |
+| 360d | 2025-09-25 | 2 | 25 | 30 | 21 | 34 | 38 |
+| last720d | 2024-09-30 | 5 | 60 | 48 | 41 | 70 | 228 |
 
 ## 改进这些数据
 
@@ -72,4 +72,4 @@ lynis 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T05:34:29Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T05:20:20Z._
