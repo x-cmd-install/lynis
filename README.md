@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,399 · **Forks**: 1,635 · **Open issues**: 960 · **Contributors**: 254
+- **Stars**: 16,407 · **Forks**: 1,635 · **Open issues**: 960 · **Contributors**: 254
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 3 | 3 | 0 | 2 | 8 |
-| last60d | 2026-07-31 | 0 | 3 | 4 | 2 | 3 | 8 |
-| 90d | 2026-07-01 | 0 | 7 | 6 | 3 | 4 | 15 |
-| last180d | 2026-04-02 | 1 | 11 | 18 | 9 | 13 | 21 |
-| 360d | 2025-10-04 | 2 | 25 | 30 | 21 | 33 | 38 |
-| last720d | 2024-10-09 | 5 | 53 | 48 | 41 | 70 | 194 |
+| 30d | 2026-08-31 | 0 | 3 | 3 | 0 | 2 | 8 |
+| last60d | 2026-08-01 | 0 | 3 | 4 | 2 | 3 | 8 |
+| 90d | 2026-07-02 | 0 | 7 | 6 | 3 | 4 | 15 |
+| last180d | 2026-04-03 | 1 | 11 | 18 | 9 | 13 | 21 |
+| 360d | 2025-10-05 | 2 | 25 | 30 | 21 | 33 | 38 |
+| last720d | 2024-10-10 | 5 | 52 | 48 | 41 | 70 | 192 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for lynis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T06:13:34Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T05:55:00Z._
