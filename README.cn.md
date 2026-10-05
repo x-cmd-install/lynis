@@ -29,8 +29,8 @@ x install lynis
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Fuzzing** (0/10) — project is not fuzzed
 
 ## 源代码
@@ -46,7 +46,7 @@ x install lynis
 
 ## 流行度
 
-- **Star**: 16,427 · **Fork**: 1,635 · **开放 issue**: 960 · **贡献者**: 254
+- **Star**: 16,430 · **Fork**: 1,636 · **开放 issue**: 960 · **贡献者**: 254
 
 ## 累计统计
 
@@ -56,12 +56,12 @@ x install lynis
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 0 | 3 | 2 | 0 | 2 | 8 |
-| last60d | 2026-08-05 | 0 | 3 | 4 | 2 | 3 | 8 |
-| 90d | 2026-07-06 | 0 | 5 | 6 | 3 | 4 | 15 |
-| last180d | 2026-04-07 | 1 | 11 | 18 | 9 | 13 | 21 |
-| 360d | 2025-10-09 | 2 | 25 | 30 | 21 | 33 | 38 |
-| last720d | 2024-10-14 | 5 | 51 | 48 | 41 | 68 | 181 |
+| 30d | 2026-09-05 | 0 | 3 | 2 | 0 | 2 | 4 |
+| last60d | 2026-08-06 | 0 | 3 | 4 | 2 | 3 | 8 |
+| 90d | 2026-07-07 | 0 | 5 | 6 | 3 | 4 | 13 |
+| last180d | 2026-04-08 | 1 | 11 | 17 | 9 | 13 | 21 |
+| 360d | 2025-10-10 | 2 | 25 | 30 | 20 | 33 | 38 |
+| last720d | 2024-10-15 | 5 | 51 | 48 | 41 | 68 | 172 |
 
 ## 改进这些数据
 
@@ -72,4 +72,4 @@ lynis 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261004.yml` · 2026-10-04T06:15:14Z._
+_数据快照: `data/card/261005.yml` · 2026-10-05T06:06:48Z._
