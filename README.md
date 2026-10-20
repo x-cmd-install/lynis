@@ -29,8 +29,8 @@ Overall score: **5.2 / 10**
 
 Lowest-scoring checks:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Fuzzing** (0/10) — project is not fuzzed
 
 ## Source
@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,506 · **Forks**: 1,638 · **Open issues**: 963 · **Contributors**: 254
+- **Stars**: 16,514 · **Forks**: 1,638 · **Open issues**: 964 · **Contributors**: 254
 
 ## Totals (cumulative)
 
-- **Releases**: 66 · **Merged PRs**: 619 · **Open PRs**: 51 · **Closed issues**: 789 · **Open issues**: 174 · **Commits**: 3940
+- **Releases**: 66 · **Merged PRs**: 619 · **Open PRs**: 51 · **Closed issues**: 790 · **Open issues**: 174 · **Commits**: 3940
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 0 | 0 | 1 | 1 | 2 | 0 |
-| last60d | 2026-08-20 | 0 | 3 | 5 | 2 | 4 | 8 |
-| 90d | 2026-07-21 | 0 | 4 | 5 | 4 | 6 | 8 |
-| last180d | 2026-04-22 | 1 | 11 | 17 | 10 | 15 | 20 |
-| 360d | 2025-10-24 | 1 | 24 | 30 | 19 | 33 | 35 |
-| last720d | 2024-10-29 | 5 | 49 | 48 | 39 | 67 | 162 |
+| 30d | 2026-09-20 | 0 | 0 | 1 | 2 | 2 | 0 |
+| last60d | 2026-08-21 | 0 | 3 | 5 | 3 | 4 | 8 |
+| 90d | 2026-07-22 | 0 | 4 | 5 | 5 | 6 | 8 |
+| last180d | 2026-04-23 | 1 | 11 | 17 | 11 | 15 | 20 |
+| 360d | 2025-10-25 | 1 | 24 | 30 | 20 | 32 | 35 |
+| last720d | 2024-10-30 | 5 | 48 | 48 | 40 | 66 | 162 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for lynis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T05:00:55Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T05:16:25Z._
