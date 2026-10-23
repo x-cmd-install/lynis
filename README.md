@@ -46,22 +46,41 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,526 · **Forks**: 1,637 · **Open issues**: 964 · **Contributors**: 254
+- **Stars**: 16,530 · **Forks**: 1,637 · **Open issues**: 965 · **Contributors**: 254
 
 ## Totals (cumulative)
 
-- **Releases**: 66 · **Merged PRs**: 619 · **Open PRs**: 51 · **Closed issues**: 790 · **Open issues**: 174 · **Commits**: 3940
+- **Releases**: 66 · **Merged PRs**: 619 · **Open PRs**: 51 · **Closed issues**: 790 · **Open issues**: 175 · **Commits**: 3940
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 1 | 2 | 2 | 0 |
-| last60d | 2026-08-23 | 0 | 3 | 5 | 3 | 4 | 8 |
-| 90d | 2026-07-24 | 0 | 4 | 5 | 4 | 6 | 8 |
-| last180d | 2026-04-25 | 1 | 10 | 16 | 11 | 15 | 20 |
-| 360d | 2025-10-27 | 1 | 24 | 30 | 20 | 32 | 35 |
-| last720d | 2024-11-01 | 5 | 48 | 48 | 40 | 66 | 161 |
+| 30d | 2026-09-23 | 0 | 0 | 1 | 2 | 3 | 0 |
+| last60d | 2026-08-24 | 0 | 3 | 5 | 3 | 5 | 8 |
+| 90d | 2026-07-25 | 0 | 4 | 5 | 4 | 7 | 8 |
+| last180d | 2026-04-26 | 1 | 10 | 16 | 11 | 15 | 20 |
+| 360d | 2025-10-28 | 1 | 24 | 30 | 20 | 33 | 35 |
+| last720d | 2024-11-02 | 5 | 48 | 48 | 40 | 67 | 161 |
+
+## Distribution status
+
+Reported by **92** distros on [repology.org](https://repology.org/project/lynis). **29** are ✅ on the latest upstream release, **53** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.1.7` | ✅ latest |
+| Debian 14 | `3.1.7` | ✅ latest |
+| Debian 13 | `3.1.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.1.6` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.0.9` | ⚠️ outdated |
+| Arch | `3.1.7` | ✅ latest |
+| Homebrew | `3.1.7` | ✅ latest |
+| Fedora rawhide | `3.1.7` | ✅ latest |
+| Nix unstable | `3.1.7` | ✅ latest |
+| Void | `3.1.7` | ✅ latest |
+| Alpine edge | `3.1.6` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.1.7` | ✅ latest |
 
 ## Improve this data
 
@@ -72,4 +91,4 @@ Install metadata for lynis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:04:25Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:05:17Z._
