@@ -1,15 +1,27 @@
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
+- repo: amazon_1
+  subrepo: updates
   srcname: lynis
   visiblename: lynis
-  version: 3.0.8
-  origversion: 3.0.8-bp155.1.6
+  version: 3.0.0
+  origversion: 3.0.0-1.17.amzn1
   status: outdated
-  summary: Security and System auditing tool
+  summary: Security and system auditing tool
   licenses:
-    - GPL-3.0-only
+    - GPLv3
   categories:
-    - System/Monitoring
+    - Unspecified
+- repo: amazon_1
+  subrepo: updates
+  srcname: lynis
+  visiblename: lynis
+  version: 3.0.0
+  origversion: 3.0.0-1.18.amzn1
+  status: outdated
+  summary: Security and system auditing tool
+  licenses:
+    - GPLv3
+  categories:
+    - Unspecified
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: lynis
@@ -91,30 +103,6 @@
     - GPLv3
   categories:
     - File tools
-- repo: amazon_1
-  subrepo: updates
-  srcname: lynis
-  visiblename: lynis
-  version: 3.0.0
-  origversion: 3.0.0-1.17.amzn1
-  status: outdated
-  summary: Security and system auditing tool
-  licenses:
-    - GPLv3
-  categories:
-    - Unspecified
-- repo: amazon_1
-  subrepo: updates
-  srcname: lynis
-  visiblename: lynis
-  version: 3.0.0
-  origversion: 3.0.0-1.18.amzn1
-  status: outdated
-  summary: Security and system auditing tool
-  licenses:
-    - GPLv3
-  categories:
-    - Unspecified
 - repo: arch
   subrepo: extra
   srcname: lynis
@@ -350,20 +338,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: updates
-  srcname: lynis
-  binnames:
-    - lynis
-  visiblename: lynis
-  version: 3.1.6
-  origversion: 3.1.6-1.fc41
-  status: outdated
-  summary: Security and system auditing tool
-  licenses:
-    - GPL-3.0-only
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: release
   srcname: lynis
   binnames:
@@ -372,6 +346,20 @@
   version: 3.1.2
   origversion: 3.1.2-1.fc41
   status: legacy
+  summary: Security and system auditing tool
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: lynis
+  binnames:
+    - lynis
+  visiblename: lynis
+  version: 3.1.6
+  origversion: 3.1.6-1.fc41
+  status: outdated
   summary: Security and system auditing tool
   licenses:
     - GPL-3.0-only
@@ -434,20 +422,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: release
-  srcname: lynis
-  binnames:
-    - lynis
-  visiblename: lynis
-  version: 3.1.6
-  origversion: 3.1.6-2.fc44
-  status: legacy
-  summary: Security and system auditing tool
-  licenses:
-    - GPL-3.0-only
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: updates
   srcname: lynis
   binnames:
@@ -456,6 +430,20 @@
   version: 3.1.7
   origversion: 3.1.7-1.fc44
   status: newest
+  summary: Security and system auditing tool
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: lynis
+  binnames:
+    - lynis
+  visiblename: lynis
+  version: 3.1.6
+  origversion: 3.1.6-2.fc44
+  status: legacy
   summary: Security and system auditing tool
   licenses:
     - GPL-3.0-only
@@ -680,6 +668,32 @@
     - gonzalo@openbsd.org
   categories:
     - security
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: lynis
+  binnames:
+    - lynis
+  visiblename: lynis
+  version: 3.1.6
+  origversion: 3.1.6-1
+  status: outdated
+  maintainers:
+    - duck@duckcorp.org
+    - francisco@debian.org
+  categories:
+    - universe/utils
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: lynis
+  visiblename: lynis
+  version: 3.0.8
+  origversion: 3.0.8-bp155.1.6
+  status: outdated
+  summary: Security and System auditing tool
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - System/Monitoring
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: lynis
@@ -733,7 +747,7 @@
   categories:
     - utils
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: lynis
   binnames:
     - lynis
@@ -747,7 +761,7 @@
   categories:
     - utils
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: lynis
   binnames:
     - lynis
@@ -964,20 +978,6 @@
     - francisco@debian.org
   categories:
     - universe/utils
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: lynis
-  binnames:
-    - lynis
-  visiblename: lynis
-  version: 3.1.6
-  origversion: 3.1.6-1
-  status: outdated
-  maintainers:
-    - duck@duckcorp.org
-    - francisco@debian.org
-  categories:
-    - universe/utils
 - repo: ubuntu_26_10
   subrepo: stonking/universe
   srcname: lynis
@@ -1015,6 +1015,19 @@
   licenses:
     - GNU General Public License, version 3.0
 - repo: amazon_1
+  subrepo: updates
+  srcname: lynis
+  visiblename: lynis
+  version: 2.7.1
+  origversion: 2.7.1-1.14.amzn1
+  status: legacy
+  summary: Security and system auditing tool
+  licenses:
+    - GPLv3
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_1
   subrepo: main
   srcname: lynis
   visiblename: lynis
@@ -1033,19 +1046,6 @@
   visiblename: lynis
   version: 2.7.1
   origversion: 2.7.1-1.13.amzn1
-  status: legacy
-  summary: Security and system auditing tool
-  licenses:
-    - GPLv3
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: lynis
-  visiblename: lynis
-  version: 2.7.1
-  origversion: 2.7.1-1.14.amzn1
   status: legacy
   summary: Security and system auditing tool
   licenses:
