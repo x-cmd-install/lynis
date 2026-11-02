@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,604 · **Forks**: 1,646 · **Open issues**: 977 · **Contributors**: 254
+- **Stars**: 16,611 · **Forks**: 1,647 · **Open issues**: 977 · **Contributors**: 254
 
 ## Totals (cumulative)
 
@@ -56,16 +56,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 0 | 3 | 2 | 15 | 0 |
-| last60d | 2026-09-02 | 0 | 3 | 5 | 2 | 17 | 8 |
-| 90d | 2026-08-03 | 0 | 3 | 7 | 4 | 18 | 8 |
-| last180d | 2026-05-05 | 1 | 9 | 18 | 10 | 24 | 19 |
-| 360d | 2025-11-06 | 1 | 23 | 32 | 19 | 45 | 34 |
-| last720d | 2024-11-11 | 5 | 47 | 50 | 40 | 79 | 158 |
+| 30d | 2026-10-03 | 0 | 0 | 3 | 2 | 15 | 0 |
+| last60d | 2026-09-03 | 0 | 3 | 5 | 2 | 17 | 6 |
+| 90d | 2026-08-04 | 0 | 3 | 7 | 4 | 18 | 8 |
+| last180d | 2026-05-06 | 1 | 9 | 18 | 10 | 24 | 17 |
+| 360d | 2025-11-07 | 1 | 21 | 32 | 19 | 45 | 31 |
+| last720d | 2024-11-12 | 5 | 47 | 50 | 40 | 79 | 158 |
 
 ## Distribution status
 
-Reported by **92** distros on [repology.org](https://repology.org/project/lynis). **29** are ✅ on the latest upstream release, **53** are ⚠️ on an older version.
+Reported by **92** distros on [repology.org](https://repology.org/project/lynis). **27** are ✅ on the latest upstream release, **55** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,4 +91,4 @@ Install metadata for lynis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:27:14Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:29:18Z._
