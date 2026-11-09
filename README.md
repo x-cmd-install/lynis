@@ -29,8 +29,8 @@ Overall score: **5.2 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Fuzzing** (0/10) — project is not fuzzed
 
 ## Source
@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,655 · **Forks**: 1,648 · **Open issues**: 978 · **Contributors**: 254
+- **Stars**: 16,660 · **Forks**: 1,648 · **Open issues**: 978 · **Contributors**: 254
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 8 | 1 | 16 | 0 |
-| last60d | 2026-09-09 | 0 | 2 | 10 | 2 | 18 | 6 |
-| 90d | 2026-08-10 | 0 | 3 | 12 | 4 | 18 | 8 |
-| last180d | 2026-05-12 | 1 | 8 | 22 | 10 | 25 | 17 |
-| 360d | 2025-11-13 | 1 | 20 | 37 | 19 | 46 | 31 |
-| last720d | 2024-11-18 | 5 | 46 | 55 | 40 | 75 | 158 |
+| 30d | 2026-10-10 | 0 | 0 | 8 | 1 | 16 | 0 |
+| last60d | 2026-09-10 | 0 | 2 | 10 | 2 | 18 | 2 |
+| 90d | 2026-08-11 | 0 | 3 | 12 | 4 | 18 | 8 |
+| last180d | 2026-05-13 | 1 | 8 | 22 | 10 | 25 | 17 |
+| 360d | 2025-11-14 | 1 | 20 | 37 | 19 | 46 | 26 |
+| last720d | 2024-11-19 | 5 | 46 | 55 | 40 | 75 | 157 |
 
 ## Distribution status
 
@@ -91,4 +91,4 @@ Install metadata for lynis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:24:14Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T06:56:31Z._
