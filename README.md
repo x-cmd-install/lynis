@@ -14,13 +14,13 @@ x install lynis
 
 ## Code insight
 
-Total: **20,951** lines of code across **73** files in the top 5 languages.
+Total: **20,957** lines of code across **73** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Sh | 20,902 | 7,196 | 1,552 | 63 |
+| Sh | 20,908 | 7,196 | 1,552 | 63 |
 | Yaml | 49 | 0 | 0 | 1 |
-| Markdown | 0 | 3,328 | 864 | 8 |
+| Markdown | 0 | 3,333 | 865 | 8 |
 | RPMSpecfile | 0 | 22 | 0 | 1 |
 
 ## OpenSSF Scorecard
@@ -42,30 +42,30 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.1.7` (2026-06-25)
-- **Last commit**: 2026-11-19
+- **Last commit**: 2026-11-20
 
 ## Popularity
 
-- **Stars**: 16,727 · **Forks**: 1,654 · **Open issues**: 982 · **Contributors**: 255
+- **Stars**: 16,733 · **Forks**: 1,654 · **Open issues**: 982 · **Contributors**: 257
 
 ## Totals (cumulative)
 
-- **Releases**: 66 · **Merged PRs**: 620 · **Open PRs**: 60 · **Closed issues**: 790 · **Open issues**: 192 · **Commits**: 3942
+- **Releases**: 66 · **Merged PRs**: 623 · **Open PRs**: 57 · **Closed issues**: 792 · **Open issues**: 190 · **Commits**: 3951
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 0 | 10 | 1 | 18 | 0 |
-| last60d | 2026-09-21 | 0 | 0 | 11 | 3 | 20 | 0 |
-| 90d | 2026-08-22 | 0 | 3 | 15 | 4 | 22 | 8 |
-| last180d | 2026-05-24 | 1 | 8 | 19 | 10 | 27 | 17 |
-| 360d | 2025-11-25 | 1 | 15 | 39 | 20 | 48 | 25 |
-| last720d | 2024-11-30 | 5 | 47 | 57 | 39 | 79 | 157 |
+| 30d | 2026-10-22 | 0 | 1 | 9 | 2 | 16 | 4 |
+| last60d | 2026-09-22 | 0 | 1 | 10 | 4 | 19 | 4 |
+| 90d | 2026-08-23 | 0 | 4 | 14 | 5 | 21 | 12 |
+| last180d | 2026-05-25 | 1 | 9 | 18 | 10 | 26 | 21 |
+| 360d | 2025-11-26 | 1 | 18 | 36 | 22 | 46 | 31 |
+| last720d | 2024-12-01 | 5 | 50 | 54 | 41 | 77 | 166 |
 
 ## Distribution status
 
-Reported by **93** distros on [repology.org](https://repology.org/project/lynis). **31** are ✅ on the latest upstream release, **52** are ⚠️ on an older version.
+Reported by **92** distros on [repology.org](https://repology.org/project/lynis). **31** are ✅ on the latest upstream release, **51** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,4 +91,4 @@ Install metadata for lynis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T08:39:19Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:38:27Z._
