@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,751 · **Forks**: 1,651 · **Open issues**: 982 · **Contributors**: 257
+- **Stars**: 16,757 · **Forks**: 1,652 · **Open issues**: 982 · **Contributors**: 257
 
 ## Totals (cumulative)
 
@@ -56,31 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 1 | 9 | 2 | 5 | 4 |
-| last60d | 2026-09-25 | 0 | 1 | 11 | 4 | 19 | 4 |
-| 90d | 2026-08-26 | 0 | 4 | 15 | 5 | 21 | 12 |
-| last180d | 2026-05-28 | 1 | 9 | 19 | 10 | 25 | 21 |
-| 360d | 2025-11-29 | 1 | 18 | 37 | 20 | 45 | 31 |
-| last720d | 2024-12-04 | 5 | 50 | 55 | 40 | 77 | 165 |
-
-## Distribution status
-
-Reported by **92** distros on [repology.org](https://repology.org/project/lynis). **31** are ✅ on the latest upstream release, **51** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.1.7` | ✅ latest |
-| Debian 14 | `3.1.7` | ✅ latest |
-| Debian 13 | `3.1.4` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.1.6` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.0.9` | ⚠️ outdated |
-| Arch | `3.1.7` | ✅ latest |
-| Homebrew | `3.1.7` | ✅ latest |
-| Fedora rawhide | `3.1.7` | ✅ latest |
-| Nix unstable | `3.1.7` | ✅ latest |
-| Void | `3.1.7` | ✅ latest |
-| Alpine edge | `3.1.6` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.1.7` | ✅ latest |
+| 30d | 2026-10-26 | 0 | 1 | 9 | 2 | 5 | 4 |
+| last60d | 2026-09-26 | 0 | 1 | 11 | 4 | 19 | 4 |
+| 90d | 2026-08-27 | 0 | 4 | 14 | 5 | 21 | 12 |
+| last180d | 2026-05-29 | 1 | 9 | 19 | 10 | 25 | 21 |
+| 360d | 2025-11-30 | 1 | 18 | 37 | 20 | 45 | 31 |
+| last720d | 2024-12-05 | 5 | 50 | 55 | 40 | 77 | 165 |
 
 ## Improve this data
 
@@ -91,4 +72,4 @@ Install metadata for lynis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:12:55Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:55:57Z._
