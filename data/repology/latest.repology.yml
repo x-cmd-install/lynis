@@ -1,92 +1,3 @@
-- repo: epel_7
-  srcname: lynis
-  visiblename: lynis
-  version: 3.1.1
-  origversion: 3.1.1-1.el7
-  status: outdated
-  summary: Security and system auditing tool
-  licenses:
-    - GPL-3.0-only
-  categories:
-    - Unspecified
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: lynis
-  binnames:
-    - lynis
-  visiblename: lynis
-  version: 3.0.8
-  origversion: 3.0.8-1.1
-  status: outdated
-  maintainers:
-    - duck@duckcorp.org
-    - francisco@debian.org
-  categories:
-    - utils
-- repo: raspbian_stable
-  subrepo: main
-  srcname: lynis
-  binnames:
-    - lynis
-  visiblename: lynis
-  version: 3.1.4
-  origversion: 3.1.4-1
-  status: outdated
-  maintainers:
-    - duck@duckcorp.org
-    - francisco@debian.org
-  categories:
-    - utils
-- repo: raspbian_testing
-  subrepo: main
-  srcname: lynis
-  binnames:
-    - lynis
-  visiblename: lynis
-  version: 3.1.7
-  origversion: 3.1.7-1
-  status: newest
-  maintainers:
-    - duck@duckcorp.org
-    - francisco@debian.org
-  categories:
-    - utils
-- repo: nix_stable_24_11
-  srcname: lynis
-  visiblename: lynis
-  version: 3.1.2
-  origversion: null
-  status: outdated
-  summary: Security auditing tool for Linux, macOS, and UNIX-based systems
-  maintainers:
-    - ryneeverett@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: lynis
-  binnames:
-    - lynis
-  visiblename: lynis
-  version: 3.1.7
-  origversion: 3.1.7-1
-  status: newest
-  maintainers:
-    - duck@duckcorp.org
-    - francisco@debian.org
-  categories:
-    - utils
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: lynis
-  binname: lynis
-  visiblename: lynis
-  version: 3.1.7
-  origversion: 3.1.7-1
-  status: newest
-  summary: Security and system auditing tool to harden Unix/Linux systems
-  licenses:
-    - GPL-3.0-only
 - repo: alpine_edge
   subrepo: testing
   srcname: lynis
@@ -226,6 +137,16 @@
     - francisco@debian.org
   categories:
     - utils
+- repo: slackbuilds
+  srcname: system/lynis
+  visiblename: system/lynis
+  version: 3.1.7
+  origversion: null
+  status: newest
+  maintainers:
+    - willysr@slackbuilds.org
+  categories:
+    - system
 - repo: debian_12
   subrepo: bookworm/main
   srcname: lynis
@@ -296,6 +217,31 @@
     - francisco@debian.org
   categories:
     - utils
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: lynis
+  binnames:
+    - lynis
+  visiblename: lynis
+  version: 3.1.7
+  origversion: 3.1.7-1
+  status: newest
+  maintainers:
+    - duck@duckcorp.org
+    - francisco@debian.org
+  categories:
+    - utils
+- repo: epel_7
+  srcname: lynis
+  visiblename: lynis
+  version: 3.1.1
+  origversion: 3.1.1-1.el7
+  status: outdated
+  summary: Security and system auditing tool
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
 - repo: epel_8
   srcname: lynis
   visiblename: lynis
@@ -390,20 +336,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: updates
-  srcname: lynis
-  binnames:
-    - lynis
-  visiblename: lynis
-  version: 3.1.6
-  origversion: 3.1.6-1.fc41
-  status: outdated
-  summary: Security and system auditing tool
-  licenses:
-    - GPL-3.0-only
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: release
   srcname: lynis
   binnames:
@@ -417,14 +349,14 @@
     - GPL-3.0-only
   categories:
     - Unspecified
-- repo: fedora_42
+- repo: fedora_41
   subrepo: updates
   srcname: lynis
   binnames:
     - lynis
   visiblename: lynis
   version: 3.1.6
-  origversion: 3.1.6-1.fc42
+  origversion: 3.1.6-1.fc41
   status: outdated
   summary: Security and system auditing tool
   licenses:
@@ -440,6 +372,20 @@
   version: 3.1.4
   origversion: 3.1.4-1.fc42
   status: legacy
+  summary: Security and system auditing tool
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: lynis
+  binnames:
+    - lynis
+  visiblename: lynis
+  version: 3.1.6
+  origversion: 3.1.6-1.fc42
+  status: outdated
   summary: Security and system auditing tool
   licenses:
     - GPL-3.0-only
@@ -473,31 +419,6 @@
     - GPL-3.0-only
   categories:
     - Unspecified
-- repo: nix_stable_24_05
-  srcname: lynis
-  visiblename: lynis
-  version: 3.1.1
-  origversion: null
-  status: outdated
-  summary: Security auditing tool for Linux, macOS, and UNIX-based systems
-  maintainers:
-    - ryneeverett@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: fedora_44
-  subrepo: release
-  srcname: lynis
-  binnames:
-    - lynis
-  visiblename: lynis
-  version: 3.1.6
-  origversion: 3.1.6-2.fc44
-  status: legacy
-  summary: Security and system auditing tool
-  licenses:
-    - GPL-3.0-only
-  categories:
-    - Unspecified
 - repo: fedora_44
   subrepo: updates
   srcname: lynis
@@ -507,6 +428,20 @@
   version: 3.1.7
   origversion: 3.1.7-1.fc44
   status: newest
+  summary: Security and system auditing tool
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: lynis
+  binnames:
+    - lynis
+  visiblename: lynis
+  version: 3.1.6
+  origversion: 3.1.6-2.fc44
+  status: legacy
   summary: Security and system auditing tool
   licenses:
     - GPL-3.0-only
@@ -545,7 +480,7 @@
   binname: lynis
   visiblename: security/lynis
   version: 3.1.7
-  origversion: null
+  origversion: 3.1.7_1
   status: newest
   summary: Security and system auditing tool
   maintainers:
@@ -654,6 +589,39 @@
   origversion: 3.1.7-1
   status: newest
   summary: Security and system auditing tool to harden Unix/Linux systems
+  licenses:
+    - GPL-3.0-only
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: lynis
+  binname: lynis
+  visiblename: lynis
+  version: 3.1.7
+  origversion: 3.1.7-1
+  status: newest
+  summary: Security and system auditing tool to harden Unix/Linux systems
+  licenses:
+    - GPL-3.0-only
+- repo: nix_stable_24_05
+  srcname: lynis
+  visiblename: lynis
+  version: 3.1.1
+  origversion: null
+  status: outdated
+  summary: Security auditing tool for Linux, macOS, and UNIX-based systems
+  maintainers:
+    - ryneeverett@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: nix_stable_24_11
+  srcname: lynis
+  visiblename: lynis
+  version: 3.1.2
+  origversion: null
+  status: outdated
+  summary: Security auditing tool for Linux, macOS, and UNIX-based systems
+  maintainers:
+    - ryneeverett@gmail.com
   licenses:
     - GPL-3.0-only
 - repo: nix_stable_25_05
@@ -816,20 +784,6 @@
     - francisco@debian.org
   categories:
     - utils
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: lynis
-  binnames:
-    - lynis
-  visiblename: lynis
-  version: 3.1.4
-  origversion: 3.1.4-1
-  status: outdated
-  maintainers:
-    - duck@duckcorp.org
-    - francisco@debian.org
-  categories:
-    - universe/utils
 - repo: pkgsrc_2026_2
   srcname: security/lynis
   binname: lynis
@@ -894,6 +848,48 @@
     - francisco@debian.org
   categories:
     - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: lynis
+  binnames:
+    - lynis
+  visiblename: lynis
+  version: 3.0.8
+  origversion: 3.0.8-1.1
+  status: outdated
+  maintainers:
+    - duck@duckcorp.org
+    - francisco@debian.org
+  categories:
+    - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: lynis
+  binnames:
+    - lynis
+  visiblename: lynis
+  version: 3.1.4
+  origversion: 3.1.4-1
+  status: outdated
+  maintainers:
+    - duck@duckcorp.org
+    - francisco@debian.org
+  categories:
+    - utils
+- repo: raspbian_testing
+  subrepo: main
+  srcname: lynis
+  binnames:
+    - lynis
+  visiblename: lynis
+  version: 3.1.7
+  origversion: 3.1.7-1
+  status: newest
+  maintainers:
+    - duck@duckcorp.org
+    - francisco@debian.org
+  categories:
+    - utils
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: lynis
@@ -926,16 +922,6 @@
     - GPLv3
   categories:
     - System/Configuration/Other
-- repo: slackbuilds
-  srcname: system/lynis
-  visiblename: system/lynis
-  version: 3.1.7
-  origversion: null
-  status: newest
-  maintainers:
-    - willysr@slackbuilds.org
-  categories:
-    - system
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: lynis
@@ -958,6 +944,20 @@
   visiblename: lynis
   version: 3.0.9
   origversion: 3.0.9-1
+  status: outdated
+  maintainers:
+    - duck@duckcorp.org
+    - francisco@debian.org
+  categories:
+    - universe/utils
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: lynis
+  binnames:
+    - lynis
+  visiblename: lynis
+  version: 3.1.4
+  origversion: 3.1.4-1
   status: outdated
   maintainers:
     - duck@duckcorp.org
@@ -1115,6 +1115,20 @@
   categories:
     - System/Configuration/Other
   vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: lynis
+  binnames:
+    - lynis
+  visiblename: lynis
+  version: 1.3.9
+  origversion: 1.3.9-1
+  status: outdated
+  maintainers:
+    - francisco@debian.org
+  categories:
+    - universe/utils
+  vulnerable: true
 - repo: openmandriva_cooker
   subrepo: unsupported/release
   srcname: lynis
@@ -1131,34 +1145,6 @@
     - GPL
   categories:
     - System/Configuration/Other
-  vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: lynis
-  binnames:
-    - lynis
-  visiblename: lynis
-  version: 2.6.2
-  origversion: 2.6.2-1
-  status: outdated
-  maintainers:
-    - francisco@debian.org
-  categories:
-    - utils
-  vulnerable: true
-- repo: ubuntu_14_04
-  subrepo: trusty/universe
-  srcname: lynis
-  binnames:
-    - lynis
-  visiblename: lynis
-  version: 1.3.9
-  origversion: 1.3.9-1
-  status: outdated
-  maintainers:
-    - francisco@debian.org
-  categories:
-    - universe/utils
   vulnerable: true
 - repo: ubuntu_16_04
   subrepo: xenial/universe
