@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 16,853 · **Forks**: 1,660 · **Open issues**: 982 · **Contributors**: 257
+- **Stars**: 16,858 · **Forks**: 1,661 · **Open issues**: 982 · **Contributors**: 257
 
 ## Totals (cumulative)
 
@@ -56,12 +56,31 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 1 | 10 | 2 | 5 | 4 |
-| last60d | 2026-09-28 | 0 | 1 | 12 | 4 | 19 | 4 |
-| 90d | 2026-08-29 | 0 | 4 | 15 | 4 | 21 | 12 |
-| last180d | 2026-05-31 | 1 | 9 | 20 | 10 | 25 | 21 |
-| 360d | 2025-12-02 | 1 | 18 | 38 | 20 | 45 | 31 |
-| last720d | 2024-12-07 | 5 | 50 | 56 | 40 | 77 | 165 |
+| 30d | 2026-10-29 | 0 | 1 | 10 | 2 | 5 | 4 |
+| last60d | 2026-09-29 | 0 | 1 | 12 | 4 | 19 | 4 |
+| 90d | 2026-08-30 | 0 | 4 | 15 | 4 | 21 | 12 |
+| last180d | 2026-06-01 | 1 | 9 | 20 | 10 | 25 | 21 |
+| 360d | 2025-12-03 | 1 | 18 | 37 | 20 | 45 | 31 |
+| last720d | 2024-12-08 | 5 | 50 | 55 | 40 | 77 | 165 |
+
+## Distribution status
+
+Reported by **91** distros on [repology.org](https://repology.org/project/lynis). **31** are ✅ on the latest upstream release, **50** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.1.7` | ✅ latest |
+| Debian 14 | `3.1.7` | ✅ latest |
+| Debian 13 | `3.1.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.1.6` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.0.9` | ⚠️ outdated |
+| Arch | `3.1.7` | ✅ latest |
+| Homebrew | `3.1.7` | ✅ latest |
+| Fedora rawhide | `3.1.7` | ✅ latest |
+| Nix unstable | `3.1.7` | ✅ latest |
+| Void | `3.1.7` | ✅ latest |
+| Alpine edge | `3.1.6` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.1.7` | ✅ latest |
 
 ## Improve this data
 
@@ -72,4 +91,4 @@ Install metadata for lynis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T10:06:06Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T08:58:31Z._
